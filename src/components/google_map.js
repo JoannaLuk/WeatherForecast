@@ -17,3 +17,19 @@ class GoogleMap extends Component {
 }
 
 export default GoogleMap;
+
+
+
+//with a use of React Google Maps library
+//import { GoogleMapLoader, GoogleMap } from 'react-google-maps';
+//
+//esport default (props) => {
+//  return (
+//    <GoogleMapLoader
+//      containerElement={ <div style={{height: '100%'}} /> }
+//      googleMapElement={
+//        <GoogleMap defaultZoom={12} defaultCenter={{lat: props.lat, lng: props.lon}} />
+//      }
+//    />
+//  );
+//}
